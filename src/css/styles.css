@@ -2,4 +2,9 @@
 @import url('./base.css');
 @import url('./container.css');
 
+@import url('./header.css');
+@import url('./posts.css');
+@import url('./longread.css');
+@import url('./social.css');
+@import url('./video.css');
 @import url('./footer.css');
