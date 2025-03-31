@@ -1,4 +1,18 @@
 .video-title {
   color: var(--grey, #2c2c2c);
   font-family: var(--common-font);
+  margin-bottom: 24px;
+}
+
+.section-video {
+  width: 100%;
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+.video {
+  border-radius: 16px;
+  width: 100%;
+  height: auto;
+  display: block;
 }

@@ -2,6 +2,13 @@
   color: var(--grey, #2c2c2c);
   font-family: var(--common-font);
   margin-bottom: 24px;
+  text-align: center;
+}
+
+.socials-list {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 24px 8px;
 }
 
 .social-link {
@@ -12,6 +19,11 @@
   font-size: 16px;
   line-height: 24px;
   letter-spacing: 0.5px;
+
+  display: grid;
+  grid-template-columns: 32px 1fr;
+  align-items: center;
+  justify-items: center;
 }
 
 .socials-item:nth-child(1) .social-link {
@@ -36,4 +48,11 @@
 
 .socials-item:nth-child(6) .social-link {
   background-color: var(--lilac);
+}
+
+@media (min-width: 768px) {
+  .socials-list {
+    gap: 24px;
+  }
+
 }

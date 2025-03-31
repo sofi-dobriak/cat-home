@@ -1,17 +1,30 @@
-.blog-link {
-  color: var(--common-black);
+.longread-container {
+  display: grid;
+  gap: 96px;
+  margin-bottom: 96px;
 }
 
-.blog-title {
-  color: var(--grey, #2c2c2c);
-  font-family: var(--common-font);
-  margin-bottom: 12px;
-}
 
-.blog-text {
-  color: var(--grey, #2c2c2c);
-  font-family: var(--common-font);
-  font-size: 16px;
-  line-height: 24px;
-  letter-spacing: 0.5px;
+@media (min-width: 1440px) {
+  .longread-container {
+    grid-template-areas:
+      "b b s"
+      "b b s"
+      "b b v"
+      "b b .";
+    gap: 24px;
+  }
+
+
+  .blog {
+    grid-area: b;
+  }
+
+  .social {
+    grid-area: s;
+  }
+
+  .video {
+    grid-area: v;
+  }
 }
