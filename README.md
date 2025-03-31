@@ -1,6 +1,10 @@
-🏡🐈 Cat House This layout was provided by my instructor, and I used it to
-practice CSS Grid. The markup and main styles were pre-made, so my focus was on
-working with grid structures.
+🏡🐈 Cat House
+
+---
+
+This layout was provided by my instructor, and I used it to practice CSS Grid.
+The markup and main styles were pre-made, so my focus was on working with grid
+structures.
 
 ## To make the page more engaging:
 
